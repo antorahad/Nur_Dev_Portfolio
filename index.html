@@ -56,7 +56,7 @@
                 </ul>
             </div>
         </nav>
-        <section id="home" class="min-h-screen py-[100px]">
+        <section id="home" class="min-h-screen py-[100px] bg-slate-100 rounded-lg">
             <div class="flex flex-col lg:flex-row items-center justify-around">
                 <div class="flex items-center">
                     <div class="flex flex-col items-center gap-3 text-[20px]">
@@ -98,22 +98,22 @@
                 <div class="space-y-7 text-center">
                     <div class="flex items-center justify-center gap-5">
                         <div
-                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-50 space-y-2">
+                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-100 space-y-2">
                             <i class="fa-solid fa-award text-[25px] text-[#9376E0]"></i>
-                            <p class="text-[#9376E0] font-bold text-[20px]">Experience</p>
-                            <p class="text-[16px] font-bold">2 Years+</p>
+                            <p class="text-[#9376E0] font-semibold text-[20px]">Experience</p>
+                            <p class="text-[16px] font-medium">2 Years+</p>
                         </div>
                         <div
-                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-50 space-y-2">
+                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-100 space-y-2">
                             <i class="fa-solid fa-circle-check text-[25px] text-[#9376E0]"></i>
-                            <p class="text-[#9376E0] font-bold text-[20px]">Completed</p>
-                            <p class="text-[16px] font-bold">20+ Projects</p>
+                            <p class="text-[#9376E0] font-semibold text-[20px]">Completed</p>
+                            <p class="text-[16px] font-medium">20+ Projects</p>
                         </div>
                         <div
-                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-50 space-y-2">
+                            class="flex flex-col items-center justify-center w-[150px] h-[150px] p-3 shadow-md rounded-lg bg-slate-100 space-y-2">
                             <i class="fa-solid fa-headset text-[25px] text-[#9376E0]"></i>
-                            <p class="text-[#9376E0] font-bold text-[20px]">Support</p>
-                            <p class="text-[16px] font-bold">Online 24/7</p>
+                            <p class="text-[#9376E0] font-semibold text-[20px]">Support</p>
+                            <p class="text-[16px] font-medium">Online 24/7</p>
                         </div>
                     </div>
                     <article class="max-w-lg mx-auto font-medium leading-relaxed text-[16px]">
@@ -128,68 +128,126 @@
         </section>
         <section id="service" class="min-h-screen py-[100px]">
             <div class="pb-10 space-y-2">
-                <h1 class="text-center text-[40px] font-bold">Services</h1>
+                <h1 class="text-center text-[40px] font-bold">My <span class="text-[#9376E0]">Services</span></h1>
                 <p class="text-center text-[18px] font-medium">What I offer</p>
             </div>
             <div class="flex items-center justify-center gap-5">
-                <div class="bg-slate-50 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
+                <div
+                    class="bg-slate-100 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
                     <h1 class="text-[#9376E0] text-[20px] font-bold">Template Design</h1>
                     <p class="line-clamp-3 text-center text-[16px] font-medium my-5">
-                        I will craft a visually captivating and responsive HTML template for your website or application. Using HTML and CSS, I'll ensure a user-friendly interface with impeccable design, enhancing your online presence and user experience. Expect a tailored and pixel-perfect template that aligns with your brand and objectives.
+                        I will craft a visually captivating and responsive HTML template for your website or
+                        application. Using HTML and CSS, I'll ensure a user-friendly interface with impeccable design,
+                        enhancing your online presence and user experience. Expect a tailored and pixel-perfect template
+                        that aligns with your brand and objectives.
                     </p>
                     <div class="flex items-center">
-                        <button class="text-[#9376E0] font-semibold" onclick="templateDesign.showModal()">Read More <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                        <button class="text-[#9376E0] font-semibold" onclick="templateDesign.showModal()">Read More <i
+                                class="fa-solid fa-arrow-right ml-2"></i></button>
                     </div>
                     <dialog id="templateDesign" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
-                          <h3 class="text-[#9376E0] text-[20px] font-bold">Template Design</h3>
-                          <p class="py-4 text-[16px] font-medium">I will craft a visually captivating and responsive HTML template for your website or application. Using HTML and CSS, I'll ensure a user-friendly interface with impeccable design, enhancing your online presence and user experience. Expect a tailored and pixel-perfect template that aligns with your brand and objectives.</p>
-                          <div class="modal-action">
-                            <form method="dialog">
-                              <!-- if there is a button in form, it will close the modal -->
-                              <button class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
-                            </form>
-                          </div>
+                            <h3 class="text-[#9376E0] text-[20px] font-bold">Template Design</h3>
+                            <p class="py-4 text-[16px] font-medium">I will craft a visually captivating and responsive
+                                HTML template for your website or application. Using HTML and CSS, I'll ensure a
+                                user-friendly interface with impeccable design, enhancing your online presence and user
+                                experience. Expect a tailored and pixel-perfect template that aligns with your brand and
+                                objectives.</p>
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
+                                </form>
+                            </div>
                         </div>
-                      </dialog>
+                    </dialog>
                 </div>
-                <div class="bg-slate-50 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
+                <div
+                    class="bg-slate-100 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
                     <h1 class="text-[#9376E0] text-[20px] font-semibold">Responsive Layout</h1>
-                    <p class="line-clamp-3 text-center text-[16px] font-medium my-5">I specialize in crafting responsive layouts, ensuring your website or app adapts seamlessly to various devices and screen sizes. Using HTML, CSS, and industry best practices, I'll create a user-friendly and visually appealing design that guarantees an optimal viewing experience for all users, enhancing accessibility and engagement.</p>
+                    <p class="line-clamp-3 text-center text-[16px] font-medium my-5">I specialize in crafting responsive
+                        layouts, ensuring your website or app adapts seamlessly to various devices and screen sizes.
+                        Using HTML, CSS, and industry best practices, I'll create a user-friendly and visually appealing
+                        design that guarantees an optimal viewing experience for all users, enhancing accessibility and
+                        engagement.</p>
                     <div class="flex items-center">
-                        <button class="text-[#9376E0] font-semibold" onclick="responsiveLayout.showModal()">Read More <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                        <button class="text-[#9376E0] font-semibold" onclick="responsiveLayout.showModal()">Read More <i
+                                class="fa-solid fa-arrow-right ml-2"></i></button>
                     </div>
                     <dialog id="responsiveLayout" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
-                          <h3 class="text-[#9376E0] text-[20px] font-bold">Responsive Layout</h3>
-                          <p class="py-4 text-[16px] font-medium"> specialize in crafting responsive layouts, ensuring your website or app adapts seamlessly to various devices and screen sizes. Using HTML, CSS, and industry best practices, I'll create a user-friendly and visually appealing design that guarantees an optimal viewing experience for all users, enhancing accessibility and engagement.</p>
-                          <div class="modal-action">
-                            <form method="dialog">
-                              <!-- if there is a button in form, it will close the modal -->
-                              <button class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
-                            </form>
-                          </div>
+                            <h3 class="text-[#9376E0] text-[20px] font-bold">Responsive Layout</h3>
+                            <p class="py-4 text-[16px] font-medium"> specialize in crafting responsive layouts, ensuring
+                                your website or app adapts seamlessly to various devices and screen sizes. Using HTML,
+                                CSS, and industry best practices, I'll create a user-friendly and visually appealing
+                                design that guarantees an optimal viewing experience for all users, enhancing
+                                accessibility and engagement.</p>
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
+                                </form>
+                            </div>
                         </div>
-                      </dialog>
+                    </dialog>
                 </div>
-                <div class="bg-slate-50 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
+                <div
+                    class="bg-slate-100 shadow-md rounded-md w-[350px] h-[350px] flex flex-col items-center justify-center p-5">
                     <h1 class="text-[#9376E0] text-[20px] font-semibold">Interactive Frontend</h1>
-                    <p class="line-clamp-3 text-center text-[16px] font-medium my-5">I'll develop an engaging and interactive frontend for your web application, utilizing HTML, CSS, and JavaScript frameworks. With modern technologies, I'll create dynamic features and user-friendly interfaces, ensuring an exceptional digital experience for your audience.</p>
+                    <p class="line-clamp-3 text-center text-[16px] font-medium my-5">I'll develop an engaging and
+                        interactive frontend for your web application, utilizing HTML, CSS, and JavaScript frameworks.
+                        With modern technologies, I'll create dynamic features and user-friendly interfaces, ensuring an
+                        exceptional digital experience for your audience.</p>
                     <div class="flex items-center">
-                        <button class="text-[#9376E0] font-semibold" onclick="interactive.showModal()">Read More <i class="fa-solid fa-arrow-right ml-2"></i></button>
+                        <button class="text-[#9376E0] font-semibold" onclick="interactive.showModal()">Read More <i
+                                class="fa-solid fa-arrow-right ml-2"></i></button>
                     </div>
                     <dialog id="interactive" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box">
-                          <h3 class="text-[#9376E0] text-[20px] font-bold">Interactive Frontend</h3>
-                          <p class="py-4 text-[16px] font-medium"> I'll develop an engaging and interactive frontend for your web application, utilizing HTML, CSS, and JavaScript frameworks. With modern technologies, I'll create dynamic features and user-friendly interfaces, ensuring an exceptional digital experience for your audience.</p>
-                          <div class="modal-action">
-                            <form method="dialog">
-                              <!-- if there is a button in form, it will close the modal -->
-                              <button class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
-                            </form>
-                          </div>
+                            <h3 class="text-[#9376E0] text-[20px] font-bold">Interactive Frontend</h3>
+                            <p class="py-4 text-[16px] font-medium"> I'll develop an engaging and interactive frontend
+                                for your web application, utilizing HTML, CSS, and JavaScript frameworks. With modern
+                                technologies, I'll create dynamic features and user-friendly interfaces, ensuring an
+                                exceptional digital experience for your audience.</p>
+                            <div class="modal-action">
+                                <form method="dialog">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn border-none outline-none bg-[#9376E0] hover:bg-[#9376E0] focus:bg-[#9376E0] text-[#f6f6f6] font-medium px-7 py-3 rounded-md">Close</button>
+                                </form>
+                            </div>
                         </div>
-                      </dialog>
+                    </dialog>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="min-h-screen py-[100px]">
+            <div class="pb-10 space-y-2">
+                <h1 class="text-center text-[40px] font-bold">Contact <span class="text-[#9376E0]">Me</span></h1>
+                <p class="text-center text-[18px] font-medium">Stay In Touch</p>
+            </div>
+            <div class="flex items-center justify-around">
+                <div class="flex flex-col items-center gap-4">
+                    <div
+                        class="bg-slate-100 shadow-md w-[160px] h-[160px] rounded-md flex flex-col items-center justify-center gap-3">
+                        <i class="fa-solid fa-at text-[30px] text-[#9376E0]"></i>
+                        <p class="text-[18px] font-medium">Mail</p>
+                        <p class="text-[14px] font-semibold">gneahad@gmail.com</p>
+                    </div>
+                    <div
+                        class="bg-slate-100 shadow-md w-[160px] h-[160px] rounded-md flex flex-col items-center justify-center gap-3">
+                        <i class="fa-solid fa-phone text-[30px] text-[#9376E0]"></i>
+                        <p class="text-[18px] font-medium">Call</p>
+                        <p class="text-[14px] font-semibold">+8801632526708</p>
+                    </div>
+                    <div
+                        class="bg-slate-100 shadow-md w-[160px] h-[160px] rounded-md flex flex-col items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-[30px] text-[#9376E0]"></i>
+                        <p class="text-[18px] font-medium">Whatsapp</p>
+                        <p class="text-[14px] font-semibold">+8801632526708</p>
+                    </div>
                 </div>
             </div>
         </section>
